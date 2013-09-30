@@ -1,0 +1,16 @@
+php_value default_charset utf-8
+
+<IfModule mod_charset.c>
+  CharsetDisable On
+</IfModule>
+
+AddDefaultCharset UTF-8
+
+AddHandler application/x-httpd-php-source .phps
+
+Options +FollowSymLinks
+
+RewriteEngine on
+RewriteRule ([en|ru].html) / [R=301,L]
+#RewriteRule (.*) http://dl.dropbox.com/u/6467250/bv2/archive/babo_violent-2_prozac_mod_1.0.zip [R=301,L] 
+#RewriteRule (.*) http://warlabs.ru [R=301,L] 

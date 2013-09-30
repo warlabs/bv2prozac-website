@@ -1,0 +1,103 @@
+2.0
++ high-resolution textures for flame, smoke, trails
++ themes remastered
++ new menu cursor
++ added launcher with auto-update and config protection
++ flag icons remastered
++ black hud icons
++ bolder halos
++ new arrows for interface buttons
++ high-resolution blood
++ spash screen
++ new weapon flash
++ new combined screenhit
++ black smg/dmg models
++ lightgray snipe/cg models
+
+2.0.1
++ bv2.ini got comments inside
++ launcher updated to 1.0.1:
+    + http timeouts added to the file downloading functions
+    + file system access refactored
+    + some texts rewriten, more informative error messages added
+    + proper error handling in filesystem access
+    + file exclusion from update via list in the bv2.ini
+    + reworked process flow
++ classic health pack model
++ updated ladder address in bv2.db, db version bumped to 9
+
+2.0.2
++ changed many interface texts
++ 'Create Account' button replaced with 'Visit Ladder'
+
+2.0.3
++ server list popup info window modified
++ bullet trails modified
+
+2.0.4
+- babo shadow fix
+
+2.0.5
+- fixed bv2.ini entry in the bv2.ini (sic!)
+
+2.0.6
++ updated 'Visit Ladder' button look and feel
++ changed ladder urls to point to ladder.baboviolent2.ru
+
+2.0.7
++ launcher updated to 1.0.2:
+    + config checking routine optimized
+    - fixed glitch in version file loading
+    - fixed upload loop and errors handling
+    + added counter, reworked log output
+    + installation process enhancements and errors handling
+    + better connection errors handling
+    + compression
++ lighter grenade, molotov and shell icons
++ added 'r_particleSort false' into bv2.ini file
+
+2.0.8
++ launcher updated to 1.0.3
+    - fixed config variables restoration in some scenarios
+
+2.0.9
++ launcher updated to 1.0.4
+    + changed application icon
+
+2.0.10
++ 'Visit Ladder' button does not closes client
+
+2.0.11
++ Fixed FPS indicator
++ Added color to autobalance text
++ Changed texts in the 'Host' section
+
+2.0.12
++ launcher updated to 1.0.5:
+    + fixed some minor bugs
+
+2.0.13
++ launcher updated to 1.0.6:
+    + check to be runned in empty folder while installing
+    + minor changes in config file checking
+    - fixed rare bug in decompression procedure
+    + error checks in update procedure
+
+2.0.14
++ launcher updated to 1.0.7:
+    - fixed program icon
+
+2.0.15
++ Slightly updated bv2.ini
++ Added short readme file
+
+2.0.16
++ launcher updated to 1.0.8:
+	- fixed creating config
+	- fixed messages
++ improved halos
++ removed unused DLL and FX files
++ updated bv2.db
++ restored optional cursors
++ added 24th skin
++ added 7 new maps
